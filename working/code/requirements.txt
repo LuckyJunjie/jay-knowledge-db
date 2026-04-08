@@ -1,0 +1,22 @@
+# Jay Knowledge DB - Requirements
+# Knowledge Collection Module (FR-001)
+
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Financial data (yfinance)
+yfinance>=0.2.36
+
+# ArXiv API (built-in, no extra dependency)
+
+# Data handling
+pandas>=2.0.0
+
+# Optional: For better XML parsing (used by ArXiv collector)
+# lxml is already included above
+
+# Testing (optional)
+pytest>=7.0.0
+pytest-cov>=4.0.0
